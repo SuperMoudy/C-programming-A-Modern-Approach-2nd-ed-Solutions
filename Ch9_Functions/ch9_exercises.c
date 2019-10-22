@@ -1,8 +1,8 @@
 /*
- * main.c
+ * ch9_exercises.c
  *
  *  Created on: Oct 21, 2019
- *      Author: MahmoudH
+ *      Author: SuperMoudy
  */
 
 // Q1
