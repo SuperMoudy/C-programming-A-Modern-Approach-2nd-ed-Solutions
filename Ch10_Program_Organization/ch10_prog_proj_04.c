@@ -133,6 +133,7 @@ void analyze_hand(void)
 
 	straight = false;
 	flush = false;
+    royal_flush = false;
 	four = false;
 	three = false;
 	pairs = 0;
