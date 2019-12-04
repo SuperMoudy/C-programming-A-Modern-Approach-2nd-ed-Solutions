@@ -610,7 +610,7 @@ int evaluate_position(char board[8][8])
 
 	char *p;
 
-	for(p = *board; p < *board + 8 * 8; p++)
+	for(p = *board; p < *board + 64; p++)
 	{
 		switch(*p)
 		{
