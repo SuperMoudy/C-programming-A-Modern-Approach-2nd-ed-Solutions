@@ -24,7 +24,7 @@ int main(void)
 		switch(toupper(input_ch))
 		{
 		case 'A': case 'E': case 'I': case 'O': case 'U':
-			num_vowels++;
+			num_vowels++; break;
 		}
 	}
 
