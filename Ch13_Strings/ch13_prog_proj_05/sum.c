@@ -13,10 +13,10 @@
 
 int main(int argc, char *argv[])
 {
-	int sum = 0, i;
+	int sum = 0, i = 0;
 
-	while(i < argc)
-		sum += atoi(argv[i++]);
+	while(i++ < argc)
+		sum += atoi(argv[i]);
 
 	printf("Total: %d\n", sum);
 
