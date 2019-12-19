@@ -1,10 +1,21 @@
-all: sum
+# Compiler
+CC = x86_64-w64-mingw32-gcc
+# Compiler Flags
+CFLAGS = -O0 -g3 -Wall -c -fmessage-length=0
+# Source File
+SRC = sum.c
+# Object File
+OBJ = sum.o
+# Program File (./PROG argvs)
+PROG = sum
 
-sum: sum.o
-	gcc sum.o -o sum
+all: $(PROG)
 
-sum.o: sum.c
-	gcc -c sum.c
+$(PROG): $(OBJ)
+	$(CC) $(OBJ) -o $@
+
+$(OBJ): $(SRC)
+	$(CC) $(CFLAGS) -c $(SRC)
 
 clean:
-	rm -rf *.o sum
+	rm -rf $(OBJ) $(PROG)
