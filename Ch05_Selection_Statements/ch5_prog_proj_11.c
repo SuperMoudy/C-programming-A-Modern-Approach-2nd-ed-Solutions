@@ -27,10 +27,11 @@ int main(void)
 	{
 		printf("zero");
 	}
-	else if(num >= 11 && num <= 19)
+	else if(num >= 10 && num <= 19)
 	{
 		switch(num)
 		{
+		case 10: printf("ten"); break;
 		case 11: printf("eleven"); break;
 		case 12: printf("twelve"); break;
 		case 13: printf("thirteen"); break;
