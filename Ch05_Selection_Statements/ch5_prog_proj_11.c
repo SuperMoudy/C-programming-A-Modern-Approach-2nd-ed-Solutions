@@ -57,7 +57,7 @@ int main(void)
 		case 9: printf("ninety"); break;
 		}
 
-		if(units)
+		if(tens && units)
 			printf("-");
 
 		switch(units)
