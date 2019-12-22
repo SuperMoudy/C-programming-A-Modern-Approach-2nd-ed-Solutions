@@ -28,7 +28,7 @@ void stack_underflow(void);
 int main(void)
 {
 	char ch;
-	int op1, op2, result;
+	int op1 = 0, op2 = 0, result = 0;
 
 	printf("Enter an RPN expression: ");
 	fflush(stdout); fflush(stdin);
@@ -80,6 +80,9 @@ int main(void)
 		else if(ch == '\n')
 		{
 			printf("Value of expression: %d\n", result);
+			result = 0;
+			op1 = 0; 
+			op2 = 0;
 			printf("Enter an RPN expression: ");
 			fflush(stdout); fflush(stdin);
 		}
