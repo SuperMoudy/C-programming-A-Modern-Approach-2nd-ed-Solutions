@@ -42,8 +42,6 @@ int main(void)
 	};
 
 	printf("Enter a 24-hour time: ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d:%d", &hh_desired, &mm_desired);
 
 	desired_time = hh_desired * 60 + mm_desired;

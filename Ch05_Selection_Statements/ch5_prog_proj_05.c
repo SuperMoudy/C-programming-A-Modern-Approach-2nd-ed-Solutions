@@ -13,7 +13,6 @@ int main(void)
 	float  income, tax = 0.0f;
 
 	printf("Enter the taxable income: ");
-	fflush(stdout);
 	scanf("%f", &income);
 
 	if(income > 0 && income <= 750)
