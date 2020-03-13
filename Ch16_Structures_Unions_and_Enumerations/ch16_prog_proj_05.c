@@ -21,9 +21,6 @@ void from_24_to_12_hr_time(int *hours, int *minutess, char *meridiem);
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	int desired_time, best_time_index = -1, time_range;
 	int hh_desired, mm_desired, hh_dep, mm_dep, hh_arrive, mm_arrive;
 	char dep_meridiem, arrive_meridiem;
