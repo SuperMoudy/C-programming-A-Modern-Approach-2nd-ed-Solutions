@@ -42,9 +42,6 @@ int compare(const void *p1, const void *p2);
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	char code;
 	for(;;)
 	{
