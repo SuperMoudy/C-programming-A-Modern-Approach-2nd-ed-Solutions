@@ -15,8 +15,6 @@ int main(void)
 	int num1, den1, num2, den2, gcd = -1;
 
 	printf("Enter a fraction: ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d/%d", &num1, &den1);
 
 	if(num1 == den1)

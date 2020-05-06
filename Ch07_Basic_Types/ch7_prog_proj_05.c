@@ -22,8 +22,6 @@ int main(void)
 	int score = 0;
 
 	printf("Enter a word: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((input_ch = getchar()) != '\n')
 	{
@@ -47,8 +45,6 @@ int main(void)
 	int score = 0;
 
 	printf("Enter a word: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((input_ch = getchar()) != '\n')
 	{

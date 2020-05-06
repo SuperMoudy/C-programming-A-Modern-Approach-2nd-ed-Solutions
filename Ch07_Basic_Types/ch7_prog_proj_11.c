@@ -14,8 +14,6 @@ int main(void)
 	char last_ch, first_ch;
 
 	printf("Enter a first and last name: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((first_ch = getchar()) == ' '); // Skipping initial spaces
 

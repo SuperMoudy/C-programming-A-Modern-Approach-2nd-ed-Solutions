@@ -14,8 +14,6 @@ int main(void)
 	int msg_len = 0, key;
 
 	printf("Enter message to be encrypted: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((input_ch = getchar()) != '\n')
 	{
@@ -23,8 +21,6 @@ int main(void)
 	}
 
 	printf("Enter shift amount (1-25): ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d", &key);
 
 	printf("Encrypted message: ");

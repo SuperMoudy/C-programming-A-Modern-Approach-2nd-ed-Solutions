@@ -14,7 +14,6 @@ int main(void)
 	int USD_amount, _20_USD = 0, _10_USD = 0, _5_USD = 0, _1_USD = 0;
 
 	printf("Enter a dollar amount: ");
-	fflush(stdout); fflush(stdin);
 	scanf("%d", &USD_amount);
 
 	if(USD_amount > 20)

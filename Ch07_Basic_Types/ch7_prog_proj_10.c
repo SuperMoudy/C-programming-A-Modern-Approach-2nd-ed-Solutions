@@ -16,8 +16,6 @@ int main(void)
 	int num_vowels = 0;
 
 	printf("Enter a sentence: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((input_ch = getchar()) != '\n')
 	{

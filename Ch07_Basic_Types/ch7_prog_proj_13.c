@@ -16,8 +16,6 @@ int main(void)
 	float avg;
 
 	printf("Enter a sentence: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((input_ch = getchar()) != '\n')
 	{
