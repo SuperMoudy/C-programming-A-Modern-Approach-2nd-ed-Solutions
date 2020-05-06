@@ -21,8 +21,6 @@ int main(void)
 	int i;
 
 	printf("Enter a sentence: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	for(i = 0; i < WORDS_NUM; i++)
 	{

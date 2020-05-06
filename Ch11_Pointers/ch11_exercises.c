@@ -49,8 +49,6 @@ int main(void)
 	double a[5], sum_a, avg_a;
 
 	printf("Enter array elements: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	for(int i = 0; i < 5; i++)
 	{
@@ -84,13 +82,9 @@ int main(void)
 	int a, b;
 
 	printf("Enter a: ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d", &a);
 
 	printf("Enter b: ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d", &b);
 
 	printf("Before swapping, a is %d and b is %d\n", a, b);
@@ -124,7 +118,6 @@ int main(void)
 	long total_sec_so_far = 9115; //2:30:55 AM
 
 	// printf("Enter the time in sec: ");
-	// fflush(stdout); fflush(stdin);
 	// scanf("%ld", &total_sec_so_far);
 
 	int t_hr, t_min, t_sec;
@@ -161,7 +154,6 @@ int main(void)
 	int a[10], max_elem, second_max_elem;
 
 	printf("Enter array elements: ");
-	fflush(stdout); fflush(stdin);
 
 	for(int i = 0; i < 10; i++)
 	{
@@ -221,11 +213,9 @@ int main(void)
 	int day_of_year, year, month, day;
 
 	printf("Enter a day in the year (Between 1 and 366): ");
-	fflush(stdout); fflush(stdin);
 	scanf("%d", &day_of_year);
 
 	printf("Enter the year: ");
-	fflush(stdout); fflush(stdin);
 	scanf("%d", &year);
 
 	// Finding date
@@ -261,7 +251,6 @@ int main(void)
 	int a[10], *largest_elem;
 
 	printf("Enter elements of array a: ");
-	fflush(stdout); fflush(stdin);
 
 	for(int i = 0; i < 10; i++)
 	{

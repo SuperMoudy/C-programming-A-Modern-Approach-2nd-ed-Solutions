@@ -17,8 +17,6 @@ int main(void)
 	int b[N], *p, big, small;
 
 	printf("Enter %d numbers: ", N);
-	fflush(stdout);
-	fflush(stdin);
 
 	for(p = b; p < b + N; p++)
 		scanf("%d", p);

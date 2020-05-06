@@ -20,8 +20,6 @@ int main(void)
 	char name[NAME_LEN];
 
 	printf("Enter a first and last name: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	read_name(name, NAME_LEN);
 	reverse_name(name);

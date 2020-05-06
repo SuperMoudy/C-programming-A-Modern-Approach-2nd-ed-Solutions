@@ -17,8 +17,6 @@ int main(void)
 	int msg_len = 0, key;
 
 	printf("Enter message to be encrypted: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((input_ch = getchar()) != '\n')
 	{
@@ -27,8 +25,6 @@ int main(void)
 	plain[msg_len] = '\0'; // Turn the plain array into a string
 
 	printf("Enter shift amount (1-25): ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d", &key);
 
 	encrypt(plain, key);

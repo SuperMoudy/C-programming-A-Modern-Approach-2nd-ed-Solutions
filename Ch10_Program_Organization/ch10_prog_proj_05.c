@@ -66,7 +66,6 @@ void read_cards(void)
 		bad_card = false;
 
 		printf("Enter a card: ");
-		fflush(stdout);
 
 		rank_ch = getchar();
 		switch(rank_ch)

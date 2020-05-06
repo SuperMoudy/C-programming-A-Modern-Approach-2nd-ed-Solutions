@@ -18,7 +18,6 @@ int main(void)
 
 	// Reading x
 	printf("Enter the value of x: ");
-	fflush(stdout);
 	scanf("%lf", &x);
 
 	// Compute polynomial

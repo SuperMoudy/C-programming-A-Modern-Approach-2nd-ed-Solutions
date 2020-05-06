@@ -31,7 +31,6 @@ int main(void)
 	int op1 = 0, op2 = 0, result = 0;
 
 	printf("Enter an RPN expression: ");
-	fflush(stdout); fflush(stdin);
 
 	while(1)
 	{
@@ -84,7 +83,6 @@ int main(void)
 			op1 = 0; 
 			op2 = 0;
 			printf("Enter an RPN expression: ");
-			fflush(stdout); fflush(stdin);
 		}
 		else
 		{

@@ -67,7 +67,6 @@ void read_cards(int num_in_rank[], int num_in_suit[])
 		bad_card = false;
 
 		printf("Enter a card: ");
-		fflush(stdout);
 
 		rank_ch = getchar();
 		switch(rank_ch)

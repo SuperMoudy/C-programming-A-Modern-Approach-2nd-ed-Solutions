@@ -16,13 +16,11 @@ int main(void)
 	int n;
 
 	printf("Enter the number of integers to be entered: ");
-	fflush(stdout);
 	scanf("%d", &n);
 
 	int a[n];
 
 	printf("Enter the list of numbers: ");
-	fflush(stdout);
 
 	for(int i = 0; i < n; i++)
 	{

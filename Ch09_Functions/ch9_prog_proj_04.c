@@ -22,12 +22,10 @@ int main(void)
 
 	// Reading the first word
 	printf("Enter first word: ");
-	fflush(stdout);
 	read_word(word1_count);
 
 	// Reading the second word
 	printf("Enter second word: ");
-	fflush(stdout);
 	read_word(word2_count);
 
 	// Anagrams test

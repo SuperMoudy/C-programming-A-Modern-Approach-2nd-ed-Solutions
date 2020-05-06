@@ -34,8 +34,6 @@ int main(void)
 	do
 	{
 		printf("Enter word: ");
-		fflush(stdout);
-		fflush(stdin);
 		read_word(input_word, WORD_LEN);
 
 		if(strcmp(smallest_word, input_word) > 0)

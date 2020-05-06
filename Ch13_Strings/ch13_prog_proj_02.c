@@ -29,8 +29,6 @@ int main(void)
 		}
 
 		printf("Enter day, 24-hour time, and reminder: ");
-		fflush(stdout);
-		fflush(stdin);
 		scanf("%2d/%2d", &month, &day);
 		if(day == 0 || month == 0)
 		{

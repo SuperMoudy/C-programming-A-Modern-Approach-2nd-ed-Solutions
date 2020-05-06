@@ -34,7 +34,6 @@ int main(void)
 	while(1)
 	{
 		printf("Enter an RPN expression: ");
-		fflush(stdout); fflush(stdin);
 		gets(exp);
 
 		printf("Value of expression: %d\n", evaluate_RPN_expression(exp));

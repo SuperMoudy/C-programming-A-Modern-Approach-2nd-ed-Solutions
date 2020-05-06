@@ -240,7 +240,6 @@ int main(void)
 	int key;
 
 	printf("Enter a number: ");
-	fflush(stdout); fflush(stdin);
 	scanf("%d", &key);
 
 	printf("Searching for %d: %s", key, search(a, 10, key) ? "found!\n" : "not found!\n");

@@ -18,8 +18,6 @@ int main(void)
 	int msg_len = 0;
 
 	printf("Enter a message: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	// Reading the message
 	input = getchar();
@@ -50,8 +48,6 @@ int main(void)
 	char input, message[LEN] = {0}, *msg_ptr = message;
 
 	printf("Enter a message: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	// Reading the message
 	input = getchar();

@@ -18,8 +18,6 @@ int main(void)
 	bool palindrome = true;
 
 	printf("Enter a message: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	// Reading the message
 	input = getchar();

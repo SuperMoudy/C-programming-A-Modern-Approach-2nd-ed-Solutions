@@ -19,8 +19,6 @@ int main(void)
 	float avg;
 
 	printf("Enter a sentence: ");
-	fflush(stdout);
-	fflush(stdin);
 	read_sentence(sentence, SENT_LEN);
 
 	avg = compute_average_word_length(sentence);

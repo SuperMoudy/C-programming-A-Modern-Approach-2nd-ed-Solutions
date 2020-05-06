@@ -24,8 +24,6 @@ int main(void)
 
 
 	printf("Enter a 24-hour time: ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d:%d", &hh_desired, &mm_desired);
 
 	// From 24-hours time to total minutes starting from midnight

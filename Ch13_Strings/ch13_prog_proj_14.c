@@ -24,8 +24,6 @@ int main(void)
 
 	// Reading the first word
 	printf("Enter first word: ");
-	fflush(stdout);
-	fflush(stdin);
 	word_ptr = word1;
 
 
@@ -42,8 +40,6 @@ int main(void)
 
 	// Reading the second word
 	printf("Enter second word: ");
-	fflush(stdout);
-	fflush(stdin);
 	word_ptr = word2;
 
 	do

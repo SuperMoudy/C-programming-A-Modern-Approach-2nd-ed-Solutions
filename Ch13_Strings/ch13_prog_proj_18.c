@@ -20,8 +20,6 @@ int main(void)
 	};
 
 	printf("Enter a data (mm/dd/yyyy): ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d / %d / %d", &mm, &dd, &yyyy);
 
 	printf("You entered the data %s %d, %d", months[mm - 1], dd, yyyy);

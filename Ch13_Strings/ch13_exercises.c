@@ -165,8 +165,6 @@ int main(void)
 	char s[STR_LEN + 1] = "hello";
 
 	printf("Enter string: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	// Uncomment the function definition of one version and comment the others
 	int str_len = read_line(s, STR_LEN);

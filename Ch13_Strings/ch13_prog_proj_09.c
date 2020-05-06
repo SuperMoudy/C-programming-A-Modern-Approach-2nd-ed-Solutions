@@ -20,8 +20,6 @@ int main(void)
 	int num_vowels;
 
 	printf("Enter a sentence: ");
-	fflush(stdout);
-	fflush(stdin);
 	read_sentence(sentence, SENT_LEN);
 
 	num_vowels = compute_vowel_count(sentence);

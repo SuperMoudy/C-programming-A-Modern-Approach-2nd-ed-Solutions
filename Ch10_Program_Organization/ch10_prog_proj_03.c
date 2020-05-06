@@ -56,7 +56,6 @@ void read_cards(void)
 		card_exists = false;
 
 		printf("Enter a card: ");
-		fflush(stdout);
 
 		rank_ch = getchar();
 		switch(rank_ch)

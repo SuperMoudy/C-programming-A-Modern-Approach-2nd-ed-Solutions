@@ -31,8 +31,6 @@ int main(void)
 	srand((unsigned) time(NULL)); // Setting a seed
 
 	printf("Enter number of cards in hand: ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d", &num_cards);
 
 	printf("You hand:\n");

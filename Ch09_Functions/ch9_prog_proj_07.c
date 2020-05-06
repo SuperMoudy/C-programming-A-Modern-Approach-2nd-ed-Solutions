@@ -15,12 +15,10 @@ int main(void)
 
 	// Reading x
 	printf("Enter x: ");
-	fflush(stdout);
 	scanf("%d", &x);
 
 	// Reading n
 	printf("Enter the power n: ");
-	fflush(stdout);
 	scanf("%d", &n);
 
 	// Printing output

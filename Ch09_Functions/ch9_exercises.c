@@ -46,15 +46,12 @@ int main(void)
 	int x, y, n;
 
 	printf("Enter x: ");
-	fflush(stdout);
 	scanf("%d", &x);
 
 	printf("Enter y: ");
-	fflush(stdout);
 	scanf("%d", &y);
 
 	printf("Enter n: ");
-	fflush(stdout);
 	scanf("%d", &n);
 
 	printf("Checking returns: %d", check(x, y, n));
@@ -83,11 +80,9 @@ int main(void)
 	int m, n;
 
 	printf("Enter m: ");
-	fflush(stdout);
 	scanf("%d", &m);
 
 	printf("Enter n: ");
-	fflush(stdout);
 	scanf("%d", &n);
 
 	printf("gcd of %d & %d is %d\n", m, n, gcd(m, n));
@@ -135,15 +130,12 @@ int main(void)
 	int month, day, year;
 
 	printf("Enter month: ");
-	fflush(stdout);
 	scanf("%d", &month);
 
 	printf("Enter day: ");
-	fflush(stdout);
 	scanf("%d", &day);
 
 	printf("Enter year: ");
-	fflush(stdout);
 	scanf("%d", &year);
 
 	printf("Day of the year is: %d", day_of_year(month, day, year));
@@ -182,7 +174,6 @@ int main(void)
 	unsigned int n;
 
 	printf("Enter n: ");
-	fflush(stdout);
 	scanf("%u", &n);
 
 	printf("Number of digits in n: %d\n", num_digits(n));
@@ -221,11 +212,9 @@ int main(void)
 	int k;
 
 	printf("Enter n: ");
-	fflush(stdout);
 	scanf("%u", &n);
 
 	printf("Enter k: ");
-	fflush(stdout);
 	scanf("%d", &k);
 
 	printf("Digit number %d from right in %u is %d\n", k, n, digit(n, k));
@@ -368,16 +357,14 @@ int main(void)
 {
 	int n;
 	printf("Enter the number of grades: ");
-	fflush(stdout);
 	scanf("%d", &n);
 
 	char x_grades[n];
 
 	for(int i = 0; i < n; i++)
 	{
-		fflush(stdin);
 		printf("Enter grade number %d: ", i + 1);
-		fflush(stdout);
+		(stdout);
 		scanf("%c", &x_grades[i]);
 
 	}
@@ -411,21 +398,16 @@ int main(void)
 	int n;
 
 	printf("Enter the arrays length: ");
-	fflush(stdout);
 	scanf("%d", &n);
 
 	double a[n], b[n];
 
 	for(int i = 0; i < n; i++)
 	{
-		fflush(stdin);
 		printf("Enter element %d in a: ", i + 1);
-		fflush(stdout);
 		scanf("%lf", &a[i]);
 
-		fflush(stdin);
 		printf("Enter element %d in b: ", i + 1);
-		fflush(stdout);
 		scanf("%lf", &b[i]);
 	}
 
@@ -522,16 +504,13 @@ int main(void)
 	int n;
 
 	printf("Enter n: ");
-	fflush(stdout);
 	scanf("%d", &n);
 
 	int a[n];
 
 	for(int i = 0; i < n; i++)
 	{
-		fflush(stdin);
 		printf("a[%d] = ", i);
-		fflush(stdout);
 		scanf("%d", &a[i]);
 	}
 
@@ -577,15 +556,12 @@ int main(void)
 	double x, y, z;
 
 	printf("Enter x: ");
-	fflush(stdout);
 	scanf("%lf", &x);
 
 	printf("Enter y: ");
-	fflush(stdout);
 	scanf("%lf", &y);
 
 	printf("Enter z: ");
-	fflush(stdout);
 	scanf("%lf", &z);
 
 	printf("The median of %lf, %lf, %lf = %lf", x, y, z, median(x, y, z));
@@ -655,7 +631,6 @@ int main(void)
 	int n;
 
 	printf("Enter n: ");
-	fflush(stdout);
 	scanf("%d", &n);
 
 	pb(n);

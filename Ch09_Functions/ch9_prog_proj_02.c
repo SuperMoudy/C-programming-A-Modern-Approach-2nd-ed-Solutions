@@ -16,7 +16,6 @@ int main(void)
 	float  income;
 
 	printf("Enter the taxable income: ");
-	fflush(stdout);
 	scanf("%f", &income);
 
 	printf("Tax due = %f", compute_tax(income));

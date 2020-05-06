@@ -31,7 +31,6 @@ int main(void)
 	char input, top_item;
 	bool match = false;
 	printf("Enter parentheses and/or braces: ");
-	fflush(stdout);
 
 	while(1)
 	{
@@ -158,7 +157,6 @@ int main(void)
 	char input;
 
 	printf("Enter parentheses and/or braces: ");
-	fflush(stdout);
 
 	while((input = getchar()) != '\n')
 	{

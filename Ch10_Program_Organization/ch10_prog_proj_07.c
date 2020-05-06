@@ -63,7 +63,6 @@ int main(void)
 	clear_digits_array();
 
 	printf("Enter a number: ");
-	fflush(stdout);
 
 	while(num_count < MAX_DIGITS)
 	{

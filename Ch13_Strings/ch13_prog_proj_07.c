@@ -29,8 +29,6 @@ int main(void)
 	};
 
 	printf("Enter a two-digit number: ");
-	fflush(stdout);
-	fflush(stdin);
 	scanf("%d", &num);
 
 	tens = num / 10;

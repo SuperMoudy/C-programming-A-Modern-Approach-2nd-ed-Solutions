@@ -14,8 +14,6 @@ int main(void)
 	char sentence[LEN], input, *sent_ptr = sentence, *word_begin, *word_end;
 
 	printf("Enter a sentence: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	input = getchar();
 	while(input != '!' &&  input != '?' && input != '.' && sent_ptr < sentence + LEN)

@@ -20,8 +20,6 @@ int main(void)
 	int score;
 
 	printf("Enter a word: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((*word_ptr = getchar()) != '\n')
 		word_ptr++;
@@ -67,8 +65,6 @@ int main(void)
 	int score;
 
 	printf("Enter a word: ");
-	fflush(stdout);
-	fflush(stdin);
 
 	while((*word_ptr = getchar()) != '\n')
 		word_ptr++;

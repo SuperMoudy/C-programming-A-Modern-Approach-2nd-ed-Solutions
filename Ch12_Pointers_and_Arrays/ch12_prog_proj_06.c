@@ -18,8 +18,6 @@ int main(void)
 	int a[N], i;
 
 	printf("Enter %d numbers to be stored: ", N);
-	fflush(stdout);
-	fflush(stdin);
 
 	for(i = 0; i < N; i++)
 		scanf("%d", &a[i]);
