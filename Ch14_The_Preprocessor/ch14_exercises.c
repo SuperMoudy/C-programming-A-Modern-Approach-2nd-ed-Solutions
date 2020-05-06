@@ -14,9 +14,6 @@
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	int x = 3, n = 19, y = 30;
 
 	printf("Cube(x) = %d\nREM(n) = %d\n", CUBE(x), REM(n));
@@ -35,9 +32,6 @@ int main(void)
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	int a[] = {0, 1, 2, 2, 7, 1, 1, 1, 4, 2};
 
 	printf("Length of array a = %d", NELEMS(a));
@@ -130,9 +124,6 @@ int main(void)
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	DISP(sqrt, 3.0)
 
 	DISP2(pow, 2, 3)
@@ -174,9 +165,6 @@ int main(void)
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	const char *str = LINE_FILE;
 	puts(str);
 
@@ -225,9 +213,6 @@ int main(void)
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 #if CHECK(2, 3, 8)
 	printf("Inclusion exists\n");
 #endif
@@ -261,9 +246,6 @@ int main(void)
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	ERROR("Range Error: index = %d\n", 3);
 
 	return 0;
@@ -374,9 +356,6 @@ int main(void)
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	printf("%s\n", INSERT_DISK);
 
 	return 0;
