@@ -30,7 +30,7 @@ PUBLIC void enqueue(int i)
 	if(size >= QUEUE_SIZE)
 		terminate("Error in enqueue: queue is full.");
 
-	buffer[rear++];
+	buffer[rear++] = i;
 	rear %= QUEUE_SIZE;
 	size++;
 }
