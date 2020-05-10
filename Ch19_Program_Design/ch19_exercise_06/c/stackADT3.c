@@ -51,7 +51,7 @@ Stack create(void)
 	return s;
 }
 
-void destory(Stack s)
+void destroy(Stack s)
 {
 	make_empty(s);
 	free(s);
