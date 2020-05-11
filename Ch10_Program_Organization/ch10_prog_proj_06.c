@@ -27,8 +27,7 @@ void stack_underflow(void);
 
 int main(void)
 {
-	char ch;
-	int op1 = 0, op2 = 0, result = 0;
+	int ch, op1 = 0, op2 = 0, result = 0;
 
 	printf("Enter an RPN expression: ");
 
@@ -75,10 +74,11 @@ int main(void)
 		else if(ch == '=')
 		{
 			result = pop();
+			printf("Value of expression: %d\n", result);
 		}
 		else if(ch == '\n')
 		{
-			printf("Value of expression: %d\n", result);
+			make_empty(s); // In case of omitting '=' and result remains in the stack
 			result = 0;
 			op1 = 0; 
 			op2 = 0;
