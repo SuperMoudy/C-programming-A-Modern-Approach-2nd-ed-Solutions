@@ -23,12 +23,14 @@ PRIVATE void terminate(const char *message)
 
 PUBLIC void enqueue(Queue *q, int i)
 {
-	if(q->size >= QUEUE_SIZE)
+	if(q->size == QUEUE_SIZE)
 		terminate("Error in enqueue: queue is full.");
 
 	q->buffer[q->rear++] = i;
-	q->rear %= QUEUE_SIZE;
 	q->size++;
+
+	if(q->rear == QUEUE_SIZE)
+		q->rear = 0;
 }
 
 PUBLIC int dequeue(Queue *q)
@@ -37,8 +39,10 @@ PUBLIC int dequeue(Queue *q)
 		terminate("Error in dequeue: queue is empty.");
 
 	int i = q->buffer[q->front++];
-	q->front %= QUEUE_SIZE;
 	q->size--;
+
+	if(q->front == QUEUE_SIZE)
+		q->front = 0;
 
 	return i;
 }
@@ -57,7 +61,7 @@ PUBLIC int rear_item(Queue *q)
 		terminate("Error in rear_item: queue is empty.");
 
 	if(q->rear == 0)
-		return q->buffer[QUEUE_SIZE];
+		return q->buffer[QUEUE_SIZE - 1];
 
 	return q->buffer[q->rear - 1];
 }
