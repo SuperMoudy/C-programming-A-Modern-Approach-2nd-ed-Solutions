@@ -120,9 +120,6 @@ unsigned short swap_bytes(unsigned short i); // For (a) and (b)
 
 int main(void)
 {
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
-
 	int hex_dec;
 	printf("Enter a hexadecimal number (up to four digits): ");
 	scanf("%hx", &hex_dec);
