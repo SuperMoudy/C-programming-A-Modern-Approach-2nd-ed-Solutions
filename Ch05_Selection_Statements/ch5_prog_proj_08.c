@@ -8,13 +8,13 @@
 // Programming Project 8: Daily Flights
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
 	int hh_desired, mm_desired, desired_time;
 	int hh_dep, mm_dep, closest_dep_time;
 	int hh_arrive, mm_arrive, arrive_time;
+	int curr_time_diff; // Computing the current time difference for each departure time
 	int min_time_diff = 1440; // Assuming the start value is 24 hr diff (max diff)
 	char dep_meridiem, arrive_meridiem; // a.m or p.m?
 
@@ -27,65 +27,88 @@ int main(void)
 
 	// Finding the closest time to our desired time according to the given table
 	// 08:00 a.m.
-	if(min_time_diff > abs(480 - desired_time))
+	curr_time_diff = 480 - desired_time; // +ve or -ve
+	curr_time_diff = (curr_time_diff > 0) ? curr_time_diff : -curr_time_diff; // fix sign
+
+	if(min_time_diff > curr_time_diff)
 	{
-		min_time_diff = abs(480 - desired_time); // update new min diff
+		min_time_diff = curr_time_diff; // update new min diff
 		closest_dep_time = 480; // 08:00 a.m.
 		arrive_time = 616; // 10:16 a.m.
 	}
 
 	// 09:43 a.m.
-	if(min_time_diff > abs(583 - desired_time))
+	curr_time_diff = 583 - desired_time; // +ve or -ve
+	curr_time_diff = (curr_time_diff > 0) ? curr_time_diff : -curr_time_diff; // fix sign
+
+	if(min_time_diff > curr_time_diff)
 	{
-		min_time_diff = abs(583 - desired_time); // update new min diff
+		min_time_diff = curr_time_diff; // update new min diff
 		closest_dep_time = 583; //  09:43 a.m.
 		arrive_time = 712; // 11:52 a.m.
 	}
 
 	// 11:19 a.m.
-	if(min_time_diff > abs(679 - desired_time))
+	curr_time_diff = 679 - desired_time; // +ve or -ve
+	curr_time_diff = (curr_time_diff > 0) ? curr_time_diff : -curr_time_diff; // fix sign
+	if(min_time_diff > curr_time_diff)
 	{
-		min_time_diff = abs(679 - desired_time); // update new min diff
+		min_time_diff = curr_time_diff; // update new min diff
 		closest_dep_time = 679; // 11:19 a.m.
 		arrive_time = 811; // 01:31 p.m.
 	}
 
 	// 12:47 p.m.
-	if(min_time_diff > abs(767 - desired_time))
+	curr_time_diff = 767 - desired_time; // +ve or -ve
+	curr_time_diff = (curr_time_diff > 0) ? curr_time_diff : -curr_time_diff; // fix sign
+
+	if(min_time_diff > curr_time_diff)
 	{
-		min_time_diff = abs(767 - desired_time); // update new min diff
+		min_time_diff = curr_time_diff; // update new min diff
 		closest_dep_time = 767; // 12:47 p.m.
 		arrive_time = 900; // 03:00 p.m.
 	}
 
 	// 02:00 p.m.
-	if(min_time_diff > abs(840 - desired_time))
+	curr_time_diff = 840 - desired_time; // +ve or -ve
+	curr_time_diff = (curr_time_diff > 0) ? curr_time_diff : -curr_time_diff; // fix sign
+
+	if(min_time_diff > curr_time_diff)
 	{
-		min_time_diff = abs(840 - desired_time); // update new min diff
+		min_time_diff = curr_time_diff; // update new min diff
 		closest_dep_time = 840; // 02:00 p.m.
 		arrive_time = 968; // 04:08 p.m.
 	}
 
 	// 03:45 p.m.
-	if(min_time_diff > abs(945 - desired_time))
+	curr_time_diff = 945 - desired_time; // +ve or -ve
+	curr_time_diff = (curr_time_diff > 0) ? curr_time_diff : -curr_time_diff; // fix sign
+
+	if(min_time_diff > curr_time_diff)
 	{
-		min_time_diff = abs(945 - desired_time); // update new min diff
+		min_time_diff = curr_time_diff; // update new min diff
 		closest_dep_time = 945; // 03:45 p.m.
 		arrive_time = 1075; // 05:55 p.m.
 	}
 
 	// 07:00 p.m.
-	if(min_time_diff > abs(1140 - desired_time))
+	curr_time_diff = 1140 - desired_time; // +ve or -ve
+	curr_time_diff = (curr_time_diff > 0) ? curr_time_diff : -curr_time_diff; // fix sign
+
+	if(min_time_diff > curr_time_diff)
 	{
-		min_time_diff = abs(1140 - desired_time); // update new min diff
+		min_time_diff = curr_time_diff; // update new min diff
 		closest_dep_time = 1140; // 07:00 p.m.
 		arrive_time = 1280; // 09:20 p.m.
 	}
 
 	// 09:45 p.m.
-	if(min_time_diff > abs(1305 - desired_time))
+	curr_time_diff = 1305 - desired_time; // +ve or -ve
+	curr_time_diff = (curr_time_diff > 0) ? curr_time_diff : -curr_time_diff; // fix sign
+
+	if(min_time_diff > curr_time_diff)
 	{
-		min_time_diff = abs(1305 - desired_time); // update new min diff
+		min_time_diff = curr_time_diff; // update new min diff
 		closest_dep_time = 1305; // 09:45 p.m.
 		arrive_time = 1438; // 11:58 p.m.
 	}
