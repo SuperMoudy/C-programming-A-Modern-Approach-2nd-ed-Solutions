@@ -1,5 +1,5 @@
 /*
- * main.c
+ * ch6_prog_proj_01.c
  *
  *  Created on: Mar 12, 2024
  *      Author: SuperMoudy
