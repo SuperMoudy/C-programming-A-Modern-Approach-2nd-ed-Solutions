@@ -99,9 +99,6 @@ This project represents my wonderful learning experience and how I was so patien
 
 ### Chapter 6: Loops
 
-- Programming Project 1
-- Programming Project 2
-- Programming Project 4
 - Programming Project 5
 - Programming Project 6
 - Programming Project 7
