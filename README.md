@@ -28,7 +28,7 @@ This project represents my wonderful learning experience and how I was so patien
 - Chapter 3: Formatted Input/Output ![image](https://progress-bar.dev/0/?scale=12&suffix=/12)
 - Chapter 4: Expressions ![image](https://progress-bar.dev/0/?scale=21&suffix=/21)
 - [Chapter 5: Selection Statements](Ch05_Selection_Statements) ![image](https://progress-bar.dev/4/?scale=22&suffix=/22)
-- [Chapter 6: Loops](Ch06_Loops) ![image](https://progress-bar.dev/15/?scale=26&suffix=/26)
+- [Chapter 6: Loops](Ch06_Loops) ![image](https://progress-bar.dev/16/?scale=26&suffix=/26)
 - [Chapter 7: Basic Types](Ch07_Basic_Types) ![image](https://progress-bar.dev/19/?scale=30&suffix=/30)
 - [Chapter 8: Arrays](Ch08_Arrays) ![image](https://progress-bar.dev/5/?scale=28&suffix=/28)
 - [Chapter 9: Functions](Ch09_Functions) ![image](https://progress-bar.dev/100/)
