@@ -11,35 +11,24 @@
 
 int main(void)
 {
-	int USD_amount, _20_USD = 0, _10_USD = 0, _5_USD = 0, _1_USD = 0;
+	int usd_amount, bills;
 
 	printf("Enter a dollar amount: ");
-	scanf("%d", &USD_amount);
+	scanf("%d", &usd_amount);
 
-	if(USD_amount > 20)
-	{
-		_20_USD = USD_amount / 20;
-		USD_amount %= 20;
-	}
+	bills = usd_amount / 20;
+	printf("$20 bills: %d\n", bills);
+	usd_amount %= 20;
 
-	if(USD_amount > 10)
-	{
-		_10_USD = USD_amount / 10;
-		USD_amount %= 10;
-	}
+	bills = usd_amount / 10;
+	printf("$10 bills: %d\n", bills);
+	usd_amount %= 10;
 
-	if(USD_amount > 5)
-	{
-		_5_USD = USD_amount / 5;
-		USD_amount %= 5;
-	}
+	bills = usd_amount / 5;
+	printf(" $5 bills: %d\n", bills);
+	usd_amount %= 5;
 
-	_1_USD = USD_amount;
-	USD_amount = 0;
-
-
-	printf("$20 bills: %d\n$10 bills: %d\n $5 bills: %d\n $1 bills: %d",
-			_20_USD, _10_USD, _5_USD, _1_USD);
+	printf(" $1 bills: %d\n", usd_amount);
 
 	return 0;
 }
