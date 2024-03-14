@@ -29,7 +29,7 @@ This project represents my wonderful learning experience and how I was so patien
 - [Chapter 4: Expressions](Ch04_Expressions) ![image](https://progress-bar.dev/1/?scale=21&suffix=/21)
 - [Chapter 5: Selection Statements](Ch05_Selection_Statements) ![image](https://progress-bar.dev/4/?scale=22&suffix=/22)
 - [Chapter 6: Loops](Ch06_Loops) ![image](https://progress-bar.dev/100/)
-- [Chapter 7: Basic Types](Ch07_Basic_Types) ![image](https://progress-bar.dev/23/?scale=30&suffix=/30)
+- [Chapter 7: Basic Types](Ch07_Basic_Types) ![image](https://progress-bar.dev/24/?scale=30&suffix=/30)
 - [Chapter 8: Arrays](Ch08_Arrays) ![image](https://progress-bar.dev/5/?scale=28&suffix=/28)
 - [Chapter 9: Functions](Ch09_Functions) ![image](https://progress-bar.dev/100/)
 - [Chapter 10: Program Organization](Ch10_Program_Organization) ![image](https://progress-bar.dev/100/)
@@ -98,7 +98,6 @@ This project represents my wonderful learning experience and how I was so patien
 
 ### Chapter 7: Basic Types
 
-- Programming Project 6
 - Programming Project 7
 - Programming Project 8
 - Programming Project 9
