@@ -5,7 +5,7 @@
  *      Author: SuperMoudy
  */
 
-// Programming Project 11: Calculating mathematical constant e
+// Programming Project 12: Calculating mathematical constant e
 
 #include <stdio.h>
 
