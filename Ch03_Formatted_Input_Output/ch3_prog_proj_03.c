@@ -13,8 +13,6 @@ int main(void)
 {
 	int GSI_prefix, group_id, publisher_code, item_no, check_digit;
 
-	SUPPRESS_ECLIPSE_BUG();
-
 	printf("Enter ISBN: ");
 	scanf("%d-%d-%d-%d-%d", &GSI_prefix, &group_id,
 			&publisher_code, &item_no, &check_digit);
