@@ -26,7 +26,7 @@ This project represents my wonderful learning experience and how I was so patien
 - Chapter 1: Introducing C ![image](https://progress-bar.dev/100/?title=No_Exercises&color=bababa)
 - [Chapter 2: C Fundamentals](Ch02_C_Fundamentals) ![image](https://progress-bar.dev/2/?scale=18&suffix=/18)
 - [Chapter 3: Formatted Input/Output](Ch03_Formatted_Input_Output) ![image](https://progress-bar.dev/100/)
-- [Chapter 4: Expressions](Ch04_Expressions) ![image](https://progress-bar.dev/19/?scale=21&suffix=/21)
+- [Chapter 4: Expressions](Ch04_Expressions) ![image](https://progress-bar.dev/20/?scale=21&suffix=/21)
 - [Chapter 5: Selection Statements](Ch05_Selection_Statements) ![image](https://progress-bar.dev/4/?scale=22&suffix=/22)
 - [Chapter 6: Loops](Ch06_Loops) ![image](https://progress-bar.dev/100/)
 - [Chapter 7: Basic Types](Ch07_Basic_Types) ![image](https://progress-bar.dev/24/?scale=30&suffix=/30)
@@ -68,7 +68,6 @@ This project represents my wonderful learning experience and how I was so patien
 
 ### Chapter 4: Expressions
 
-- Programming Project 5
 - Programming Project 6
 
 ### Chapter 5: Selection Statements
